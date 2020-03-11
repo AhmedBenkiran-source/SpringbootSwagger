@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Springbootswagger:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Springbootswagger</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Springbootswagger.war">
+      <element id="artifact" artifact-name="Springbootswagger:war exploded" />
+    </root>
+  </artifact>
+</component>
